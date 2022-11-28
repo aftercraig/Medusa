@@ -1,0 +1,2 @@
+# Medusa
+Adaptive page
