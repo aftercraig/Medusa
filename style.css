@@ -41,11 +41,10 @@ li {
 .links {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 10px;
 }
 
 .links-style {
-	font-size: 15px;
+	font-size: 20px;
 	text-decoration: none;
 	font-family: 'WiGuru4';
 	color: #FFFFFF;
@@ -63,8 +62,7 @@ li {
 }
 
 .language-switch {
-	padding-top: 7px;
-	font-size: 15px;
+	font-size: 20px;
 	text-decoration: none;
 	font-family: 'WiGuru4';
 	color: #FFFFFF;
