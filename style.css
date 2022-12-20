@@ -1,11 +1,21 @@
 @font-face {
-	font-family: 'Baskerville_A.Z_PS Normal';
-	src: url('../fonts/baskerville_a-z_ps_normal.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/baskerville_a-z_ps_normal.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/baskerville_a-z_ps_normal.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/baskerville_a-z_ps_normal.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/baskerville_a-z_ps_normal.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/baskerville_a-z_ps_normal.svg#baskerville_a-z_ps_normal') format('svg'); /* Chrome < 4, Legacy iOS */
+	font-family: 'WiGuru4';
+	src: url('./fonts/wiguru4.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/wiguru4.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/wiguru4.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/wiguru4.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/wiguru4.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/wiguru4.svg#wiguru4') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'TRY Clother Bold';
+	src: url('./fonts/try_clother_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/try_clother_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/try_clother_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/try_clother_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/try_clother_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/try_clother_bold.svg#try_clother_bold') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
 * {
@@ -33,7 +43,7 @@ header {
 .links-style {
 	font-size: 15px;
 	text-decoration: none;
-	font-family: 'Baskerville_A.Z_PS Normal';
+	font-family: 'WiGuru4';
 	color: #FFFFFF;
 }
 
@@ -51,7 +61,7 @@ header {
 	padding-top: 7px;
 	font-size: 15px;
 	text-decoration: none;
-	font-family: 'Baskerville_A.Z_PS Normal';
+	font-family: 'WiGuru4';
 	color: #FFFFFF;
 }
 
@@ -69,11 +79,15 @@ main {
 	justify-content: center;
 }
 
+.main-page {
+	display: flex;
+	flex-direction: column;
+}
+
 .first-border {
 	background-color: #FFFFFF;
 	border-radius: 10px;
-	margin-top: 30px;
-	width: 79%;
+	margin: 30px 60px 0 60px;
 	height: 56px;
 	display: flex;
 	justify-content: space-between;
@@ -116,6 +130,7 @@ main {
 .filter {
 	padding: 18px 0 18px 0;
 	color: #9CA1A9;
+	font-family: 'WiGuru4';
 }
 
 input[type="checkbox"] {
@@ -131,4 +146,247 @@ input[type="checkbox"] {
 
 input:checked[type="checkbox"] {
 	background: #00d451;
+}
+
+.front-part {
+	border-radius: 10px 10px 0px 0px;
+	background-color: #F2F2F2;
+	margin: 17px 60px 0 60px;
+}
+
+.main-border {
+	display: flex;
+	justify-content: center;
+	margin: 17px 60px 0 60px;
+}
+
+.first-article {
+	margin: 58px 60px 20px 60px;
+	border: 5px solid #A37846;
+	border-radius: 10px;
+}
+
+.heading {
+	display: flex;
+	justify-content: center;
+	font-family: 'TRY Clother Bold';
+	font-size: 50px;
+	padding: 45px 66px 105px 66px;
+}
+
+.time {
+	display: flex;
+	justify-content: center;
+	font-family: 'WiGuru4';
+	font-size: 15px;
+	color: #9CA1A9;
+	padding-bottom: 30px;
+}
+
+.second-article-block {
+	display: flex;
+	justify-content: center;
+	margin: 0 60px 20px 60px;
+	border: 1px solid #9CA1A9;
+	border-radius: 10px;
+}
+
+.main-new-block1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.main-new1 {
+	font-family: 'TRY Clother Bold';
+	font-size: 35px;
+	padding: 30px 15px 0 30px;
+	color: #000000;
+}
+
+.main-time1 {
+	font-family: 'WiGuru4';
+	font-size: 15px;
+	padding: 151px 0 30px 30px;
+	color: #9CA1A9;
+}
+
+.main-news-block-styles {
+	display: flex;
+	flex-direction: column;
+}
+
+.main-new-block2 {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+}
+
+.main-new2 {
+	font-family: 'TRY Clother Bold';
+	font-size: 20px;
+	color: #000000;
+}
+
+.main-time2 {
+	font-family: 'WiGuru4';
+	font-size: 15px;
+	color: #9CA1A9;
+}
+
+.main-new-block3 {
+	display: flex;
+	flex-direction: column;
+	padding-top: 50px;
+}
+
+.main-new3 {
+	font-family: 'TRY Clother Bold';
+	font-size: 20px;
+	color: #000000;
+}
+
+.main-time3 {
+	font-family: 'WiGuru4';
+	font-size: 15px;
+	color: #9CA1A9;
+}
+
+.main-new-block4 {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+}
+
+.main-new4 {
+	font-family: 'TRY Clother Bold';
+	font-size: 20px;
+	color: #000000;
+}
+
+.main-time4 {
+	font-family: 'WiGuru4';
+	font-size: 15px;
+	color: #9CA1A9;
+}
+
+.main-new-block5 {
+	display: flex;
+	flex-direction: column;
+	padding-top: 40px;
+}
+
+.main-new5 {
+	font-family: 'TRY Clother Bold';
+	font-size: 20px;
+	color: #000000;
+}
+
+.main-time5 {
+	font-family: 'WiGuru4';
+	font-size: 15px;
+	color: #9CA1A9;
+}
+
+.third-article-block {
+	display: flex;
+	justify-content: center;
+	margin: 0 60px 100px 60px;
+	border: 1px solid #9CA1A9;
+	border-radius: 10px;
+}
+
+.main-new-block6 {
+	display: flex;
+	flex-direction: column;
+}
+
+.main-new6 {
+	font-family: 'TRY Clother Bold';
+	font-size: 35px;
+	padding: 30px 15px 0 30px;
+	color: #000000;
+}
+
+.main-time6 {
+	font-family: 'WiGuru4';
+	font-size: 15px;
+	padding: 120px 0 30px 30px;
+	color: #9CA1A9;
+}
+
+.main-news-block-styles3 {
+	display: flex;
+	flex-direction: column;
+}
+
+.main-new-block7 {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+}
+
+.main-new7 {
+	font-family: 'TRY Clother Bold';
+	font-size: 20px;
+	color: #000000;
+}
+
+.main-time7 {
+	font-family: 'WiGuru4';
+	font-size: 15px;
+	color: #9CA1A9;
+}
+
+.main-new-block8 {
+	display: flex;
+	flex-direction: column;
+	padding-top: 50px;
+}
+
+.main-new8 {
+	font-family: 'TRY Clother Bold';
+	font-size: 20px;
+	color: #000000;
+}
+
+.main-time8 {
+	font-family: 'WiGuru4';
+	font-size: 15px;
+	color: #9CA1A9;
+}
+
+.main-new-block9 {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+}
+
+.main-new9 {
+	font-family: 'TRY Clother Bold';
+	font-size: 20px;
+	color: #000000;
+}
+
+.main-time9 {
+	font-family: 'WiGuru4';
+	font-size: 15px;
+	color: #9CA1A9;
+}
+
+.main-new-block10 {
+	display: flex;
+	flex-direction: column;
+	padding-top: 40px;
+}
+
+.main-new10 {
+	font-family: 'TRY Clother Bold';
+	font-size: 20px;
+	color: #000000;
+}
+
+.main-time10 {
+	font-family: 'WiGuru4';
+	font-size: 15px;
+	color: #9CA1A9;
 }
