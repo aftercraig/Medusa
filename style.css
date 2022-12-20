@@ -63,3 +63,72 @@ header {
 .line {
 	padding: 0 20px 0 20px;
 }
+
+main {
+	display: flex;
+	justify-content: center;
+}
+
+.first-border {
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	margin-top: 30px;
+	width: 79%;
+	height: 56px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.course {
+	display: flex;
+	flex-direction: row;
+	padding-top: 18px;
+}
+
+.dollar {
+	display: flex;
+	flex-direction: row;
+	padding-left: 16px;
+	font-size: 17px;
+}
+
+.euro {
+	display: flex;
+	flex-direction: row;
+	padding-left: 16px;
+	font-size: 17px;
+}
+
+.currency {
+	color: #9CA1A9;
+	padding-right: 5px;
+}
+
+.checkbox {
+	display: flex;
+	flex-direction: row;
+}
+
+.switch {
+	padding: 16px 16px 16px 10px;
+}
+
+.filter {
+	padding: 18px 0 18px 0;
+	color: #9CA1A9;
+}
+
+input[type="checkbox"] {
+	width: 48px;
+	height: 24px;
+	-webkit-appearance: none;
+	outline: none;
+	background: #E6E6E6;
+	border-radius: 25px;
+	transition: .5s;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, .2)
+}
+
+input:checked[type="checkbox"] {
+	background: #00d451;
+}
