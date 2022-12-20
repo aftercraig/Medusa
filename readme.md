@@ -1,2 +1,2 @@
 # Medusa
-Adaptive page
+Just a little marine creature
