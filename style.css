@@ -1,5 +1,65 @@
+@font-face {
+	font-family: 'Baskerville_A.Z_PS Normal';
+	src: url('../fonts/baskerville_a-z_ps_normal.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/baskerville_a-z_ps_normal.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/baskerville_a-z_ps_normal.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/baskerville_a-z_ps_normal.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/baskerville_a-z_ps_normal.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/baskerville_a-z_ps_normal.svg#baskerville_a-z_ps_normal') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 40px;
+}
+
+.links {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+.links-style {
+	font-size: 15px;
+	text-decoration: none;
+	font-family: 'Baskerville_A.Z_PS Normal';
+	color: #FFFFFF;
+}
+
+.links-style:hover {
+	color: #A37846;
+	transition: 0.2s linear;
+}
+
+.search {
+	display: flex;
+	justify-content: space-around;
+}
+
+.language-switch {
+	padding-top: 7px;
+	font-size: 15px;
+	text-decoration: none;
+	font-family: 'Baskerville_A.Z_PS Normal';
+	color: #FFFFFF;
+}
+
+.language-switch:hover {
+	color: #A37846;
+	transition: 0.2s linear;
+}
+
+.line {
+	padding: 0 20px 0 20px;
 }
